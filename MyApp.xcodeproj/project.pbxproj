@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52ADDE861AE0899400FD06A3 /* MonthNameConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ADDE851AE0899400FD06A3 /* MonthNameConverter.swift */; };
 		EAC6EBDA1AE0750800BBA15F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6EBD91AE0750800BBA15F /* AppDelegate.swift */; };
 		EAC6EBDC1AE0750800BBA15F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6EBDB1AE0750800BBA15F /* ViewController.swift */; };
 		EAC6EBDF1AE0750800BBA15F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC6EBDD1AE0750800BBA15F /* Main.storyboard */; };
 		EAC6EBE11AE0750800BBA15F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC6EBE01AE0750800BBA15F /* Images.xcassets */; };
 		EAC6EBE41AE0750800BBA15F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAC6EBE21AE0750800BBA15F /* LaunchScreen.xib */; };
 		EAC6EBF01AE0750800BBA15F /* MyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6EBEF1AE0750800BBA15F /* MyAppTests.swift */; };
+		EAC6EBFA1AE0798600BBA15F /* WeekdayConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6EBF91AE0798600BBA15F /* WeekdayConverter.swift */; };
+		EAC6EBFC1AE07A0800BBA15F /* WeekdayConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6EBFB1AE07A0800BBA15F /* WeekdayConverterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52ADDE851AE0899400FD06A3 /* MonthNameConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthNameConverter.swift; sourceTree = "<group>"; };
 		EAC6EBD41AE0750800BBA15F /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC6EBD81AE0750800BBA15F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAC6EBD91AE0750800BBA15F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +40,8 @@
 		EAC6EBE91AE0750800BBA15F /* MyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC6EBEE1AE0750800BBA15F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAC6EBEF1AE0750800BBA15F /* MyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppTests.swift; sourceTree = "<group>"; };
+		EAC6EBF91AE0798600BBA15F /* WeekdayConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekdayConverter.swift; sourceTree = "<group>"; };
+		EAC6EBFB1AE07A0800BBA15F /* WeekdayConverterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekdayConverterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,8 @@
 				EAC6EBE01AE0750800BBA15F /* Images.xcassets */,
 				EAC6EBE21AE0750800BBA15F /* LaunchScreen.xib */,
 				EAC6EBD71AE0750800BBA15F /* Supporting Files */,
+				EAC6EBF91AE0798600BBA15F /* WeekdayConverter.swift */,
+				52ADDE851AE0899400FD06A3 /* MonthNameConverter.swift */,
 			);
 			path = MyApp;
 			sourceTree = "<group>";
@@ -100,6 +108,7 @@
 			children = (
 				EAC6EBEF1AE0750800BBA15F /* MyAppTests.swift */,
 				EAC6EBED1AE0750800BBA15F /* Supporting Files */,
+				EAC6EBFB1AE07A0800BBA15F /* WeekdayConverterTests.swift */,
 			);
 			path = MyAppTests;
 			sourceTree = "<group>";
@@ -214,6 +223,8 @@
 			files = (
 				EAC6EBDC1AE0750800BBA15F /* ViewController.swift in Sources */,
 				EAC6EBDA1AE0750800BBA15F /* AppDelegate.swift in Sources */,
+				52ADDE861AE0899400FD06A3 /* MonthNameConverter.swift in Sources */,
+				EAC6EBFA1AE0798600BBA15F /* WeekdayConverter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAC6EBF01AE0750800BBA15F /* MyAppTests.swift in Sources */,
+				EAC6EBFC1AE07A0800BBA15F /* WeekdayConverterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +417,7 @@
 				EAC6EBF51AE0750800BBA15F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAC6EBF61AE0750800BBA15F /* Build configuration list for PBXNativeTarget "MyAppTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				EAC6EBF81AE0750800BBA15F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

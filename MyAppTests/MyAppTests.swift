@@ -25,6 +25,10 @@ class MyAppTests: XCTestCase {
         // This is an example of a functional test case.
         XCTAssert(true, "Pass")
     }
+
+    func testAccuracy() {
+        XCTAssertEqualWithAccuracy(4.0/3.0, 12.0/9.0, 0.000001, "Not close enough")
+    }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
